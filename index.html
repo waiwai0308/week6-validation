@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-border"></div>
+
+        <div class="step">
+            <div class="step-status">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+            </div>
+            <div class="step-line"></div>
+        </div>
+
+
+
+        <div class="step1">
+            <div class="step-title">
+                <h2>Create Account</h2>
+                <span>Glad to see you here!</span>
+            </div>
+            <div class="step-content">
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="">Account*</label>
+                        <input type="text" placeholder="example@email.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Account*</label>
+                        <input type="password" placeholder="●●●●●●">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Account*</label>
+                        <input type="password" placeholder="●●●●●●">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step2">
+            <div class="step-title">
+                <h2>General Infomation</h2>
+                <span>Tell us who you are!</span>
+            </div>
+            <div class="step-content">
+                <div class="form-group-2">
+                    <div class="input-group">
+                        <label for="">Name
+                            <span>(optional)</span>
+                        </label>
+                        <input type="text" placeholder="Example Name">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Phone*</label>
+                        <input type="text" placeholder="0912 345 678">
+                    </div>
+                </div>
+
+                <div class="form-group-content">
+                    <label for="">Birth Date
+                        <span>(optional)</span>
+                    </label>
+                    <div class="form-group-3">
+                        <div class="input-group">
+                            <input type="number" min="1911" max="2018" placeholder="YYYY">
+                        </div>
+                        <div class="input-group">
+                            <input type="number" min="1" max="12" placeholder="MM">
+                        </div>
+                        <div class="input-group">
+                            <input type="number" min="1" max="31" placeholder="DD">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group-content">
+                    <label for="">Address*</label>
+                    <div class="form-group-2">
+                        <div class="input-group">
+                            <select name="" id="" required>
+                                <option value="" disabled selected hidden>City</option>
+                                <option value="">TEST</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <select name="" id="" required>
+                                <option value="" disabled selected hidden>Dist</option>
+                                <option value="">TEST</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" placeholder="Address Detail">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="step3">
+            <div class="step-title">
+                <h2>Update Profile Picture</h2>
+                <span>We wanna know you more!</span>
+            </div>
+            <div class="step-content">
+
+                <div class="upload-box">
+                    <label for="upload-img">
+                        <input id="upload-img" type="file" multiple="" accept="image/png,image/jpg,image/JPEG">
+                        <div class="upload-info">
+                            <i class="fa fa-picture-o fa-3x" aria-hidden="true"></i>
+                            <div class="info-text">
+                                <div class="info-text-max">UPLOAD UP TO 3 PHOTOS</div>
+                                <div class="info-text-size">MAX SIZE: 150*150px</div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="upload-error">
+                    <i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i>
+                    <span>ONE FILE IS OVER THE MAXIMUM SIZE</span>
+                </div>
+
+                <div class="upload-img">
+                    <div class="img-box">
+                        <div class="delete">
+                            <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <div class="delete">
+                            <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <div class="delete">
+                            <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="step4">
+            <div class="step-title">
+                <h2>General Infomation</h2>
+                <span>Tell us who you are!</span>
+            </div>
+            <div class="step-content">
+                <div class="form-group">
+                    <div class="input-group credit-card">
+                        <label for="">Card Number</label>
+                        <input type="text" placeholder="1234 5678 1234 5678">
+                        <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                        <!-- <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                        <i class="fa fa-cc-jcb" aria-hidden="true"></i>
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i> -->
+                    </div>
+                </div>
+
+                <div class="form-group-content">
+                    <div class="form-group-3">
+                        <div class="input-group">
+                            <label for="">CVV</label>
+                            <input type="number" min="0" max="999" placeholder="666">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Expire Date</label>
+                            <input type="number" min="1" max="12" placeholder="MM">
+                        </div>
+                        <div class="input-group">
+                            <label for="">&nbsp;</label>
+                            <input type="number" min="1" max="31" placeholder="DD">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="step5">
+                <div class="step-title">
+                    <h2>Congratulations</h2>
+                    <span>Congratulations</span>
+                </div>
+                <div class="step-content finished">
+                        <i class="fa fa-smile-o fa-8x" aria-hidden="true"></i>
+                        <span>Redirected to homepage after 5 seconds…</span>
+                </div>
+            </div>
+
+        <div class="step-content">
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="button" class="disabled" value="SUBMIT & NEXT">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
