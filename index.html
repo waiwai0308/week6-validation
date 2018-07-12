@@ -35,16 +35,28 @@
             <div class="step-content">
                 <div class="form-group">
                     <div class="input-group">
-                        <label for="">Account*</label>
-                        <input type="text" placeholder="example@email.com">
+                        <label for="">Account</label>
+                        <input type="text" placeholder="example@email.com" class="danger">
+                        <div class="invalid">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            <span>INVALID NUMBER</span>
+                        </div>
                     </div>
                     <div class="input-group">
-                        <label for="">Account*</label>
+                        <label for="">Password</label>
                         <input type="password" placeholder="●●●●●●">
+                        <div class="invalid">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            <span>MINIMUM 8 CHARACTERS</span>
+                        </div>
                     </div>
                     <div class="input-group">
-                        <label for="">Account*</label>
+                        <label for="">Comfirm Password</label>
                         <input type="password" placeholder="●●●●●●">
+                        <div class="invalid">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            <span>NOT MATCH</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,6 +78,10 @@
                     <div class="input-group">
                         <label for="">Phone*</label>
                         <input type="text" placeholder="0912 345 678">
+                        <div class="invalid">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            <span>NUMBERS ONLY</span>
+                        </div>
                     </div>
                 </div>
 
@@ -104,6 +120,10 @@
                     <div class="form-group">
                         <div class="input-group">
                             <input type="text" placeholder="Address Detail">
+                            <div class="invalid">
+                                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                                <span>NUMBERS ONLY</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -195,15 +215,15 @@
         </div>
 
         <div class="step5">
-                <div class="step-title">
-                    <h2>Congratulations</h2>
-                    <span>Congratulations</span>
-                </div>
-                <div class="step-content finished">
-                        <i class="fa fa-smile-o fa-8x" aria-hidden="true"></i>
-                        <span>Redirected to homepage after 5 seconds…</span>
-                </div>
+            <div class="step-title">
+                <h2>Congratulations</h2>
+                <span>Congratulations</span>
             </div>
+            <div class="step-content finished">
+                <i class="fa fa-smile-o fa-8x" aria-hidden="true"></i>
+                <span>Redirected to homepage after 5 seconds…</span>
+            </div>
+        </div>
 
         <div class="step-content">
             <div class="form-group">

@@ -1,7 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
 
 input, select {
   border: 2px solid #000000;
@@ -33,8 +36,43 @@ input.disabled {
   border-radius: 8px;
   cursor: default; }
 
+input:focus {
+  border: 2px solid #0275D8; }
+
+input.danger {
+  border: 2px solid #F5A623; }
+
 select:invalid {
   color: gray; }
+
+.input-group {
+  position: relative; }
+  .input-group .invalid {
+    color: #F5A623;
+    position: absolute;
+    right: -210px;
+    bottom: 10px;
+    width: 250px; }
+    .input-group .invalid span {
+      margin-left: 40px;
+      display: inline-block;
+      background-color: #F5A623;
+      color: white;
+      font-size: 14px;
+      padding: 6px 8px;
+      position: relative;
+      border-radius: 6px; }
+      .input-group .invalid span:before {
+        content: ' ';
+        position: absolute;
+        display: block;
+        top: 10px;
+        left: -7px;
+        border-style: solid;
+        border-width: 4px 8px 4px 0;
+        border-color: transparent #F5A623 transparent transparent; }
+    .input-group .invalid.hide {
+      display: none; }
 
 .container {
   width: 620px;
